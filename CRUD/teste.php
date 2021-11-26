@@ -1,0 +1,2 @@
+$sqlupdate ="update tb_utilizador SET Nome='".$Nome."', NumeroBI='".$NumeroBI."', Morada='".$Morada."', Telefone='".$Telefone."', DataNasc='".$DataNasc."',Email='".$Email."', Password='".$Password."', is_admin='".$is_admin."' WHERE ID='".$ID."' ";
+mysql_query($sqlupdate) or die (mysql_error());
